@@ -1,7 +1,6 @@
 import java.util.Scanner;
 class Reverse{
     static int num=0,rev=0;
-//using loop
     public static int find(int n) {
         while (n > 0) {
             int rem = n % 10;
@@ -26,7 +25,6 @@ class Reverse{
 }
 class ReverseR extends Reverse{
     static int r=1,rev=0;
-   //using recursion
     public static int find(int n){
         if(n>0){
             find(n/10);
